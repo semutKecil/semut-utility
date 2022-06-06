@@ -30,17 +30,36 @@ class ActionQueue(private val name: String) {
     private val actQ: BlockingDeque<Runnable> = LinkedBlockingDeque()
     private var stop = false
     fun destroy() {
-        actQ.put {stop = true}
+        actQ.put { stop = true }
         actQ.put {}
     }
 
+    @Throws(Exception::class)
     fun <T> run(act: () -> T): T {
         if (stop) throw ActionQueueAlreadyDestroyException()
-        val cF = CompletableFuture<T>()
+        val cF = CompletableFuture<Any>()
         actQ.put {
-            cF.complete(act())
+            cF.complete(
+                try {
+                    act()
+                } catch (e: Exception) {
+                    e
+                }
+            )
         }
-        return cF.get()
+
+        val res = cF.get()
+
+        if (res is Exception) {
+            throw res
+        }
+
+        return try {
+            @Suppress("UNCHECKED_CAST")
+            res as T
+        } catch (e: Exception) {
+            throw e
+        }
     }
 
     init {
@@ -48,7 +67,11 @@ class ActionQueue(private val name: String) {
             try {
                 while (!stop) {
                     val cv = actQ.take()
-                    cv.run()
+                    try {
+                        cv.run()
+                    } catch (e: Exception) {
+                        println("invalid operation")
+                    }
                 }
             } catch (e: InterruptedException) {
                 Thread.currentThread().interrupt()
