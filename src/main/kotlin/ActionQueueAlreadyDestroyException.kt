@@ -1,0 +1,1 @@
+class ActionQueueAlreadyDestroyException() : Exception("Queue Already Destroyed")
