@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c661e05-85eb-47a0-ba76-6806b381783b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueueAlreadyDestroyException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ConcurrentList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InstantQueueProcessor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7c661e05-85eb-47a0-ba76-6806b381783b" name="Changes" comment="extract file">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ActionQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ActionQueueAlreadyDestroyException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueueAlreadyDestroyException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConcurrentList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ConcurrentList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InstantQueueProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InstantQueueProcessor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +32,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.scopes"
+    "settings.editor.selected.configurable": "template.copyright.formatting"
   }
 }]]></component>
   <component name="RunManager">
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654523372048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="extract file">
+      <created>1654524806540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654524806540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="extract file" />
+    <option name="LAST_COMMIT_MESSAGE" value="extract file" />
   </component>
 </project>
