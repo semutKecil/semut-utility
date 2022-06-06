@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c661e05-85eb-47a0-ba76-6806b381783b" name="Changes" comment="extract file">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ActionQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ActionQueueAlreadyDestroyException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ActionQueueAlreadyDestroyException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConcurrentList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ConcurrentList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InstantQueueProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InstantQueueProcessor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="7c661e05-85eb-47a0-ba76-6806b381783b" name="Changes" comment="add copyrights">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -86,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654524806540</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add copyrights">
+      <created>1654524910398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654524910398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="extract file" />
-    <option name="LAST_COMMIT_MESSAGE" value="extract file" />
+    <MESSAGE value="add copyrights" />
+    <option name="LAST_COMMIT_MESSAGE" value="add copyrights" />
   </component>
 </project>

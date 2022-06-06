@@ -35,7 +35,6 @@ class ActionQueue(private val name: String) {
     }
 
     fun <T> run(act: () -> T): T {
-        println("run queue")
         if (stop) throw ActionQueueAlreadyDestroyException()
         val cF = CompletableFuture<T>()
         actQ.put {
