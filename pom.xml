@@ -62,7 +62,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>MainKt</mainClass>
+                    <mainClass>com.kawanansemut.semututility.MainKt</mainClass>
                 </configuration>
             </plugin>
             <plugin>

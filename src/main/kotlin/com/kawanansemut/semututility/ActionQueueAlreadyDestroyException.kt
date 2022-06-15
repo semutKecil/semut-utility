@@ -1,4 +1,4 @@
-/*
+package com.kawanansemut.semututility/*
  * MIT License
  *
  * Copyright (c) [2022] [Herlan Septiyan]
@@ -22,7 +22,5 @@
  * SOFTWARE.
  */
 
-fun main(args: Array<String>) {
-    println("Hello World!")
-}
 
+class ActionQueueAlreadyDestroyException() : Exception("Queue Already Destroyed")
